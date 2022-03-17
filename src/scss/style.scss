@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext');
+@import './base.scss';
+@import './blocks/promotion/promotion';
+
+
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+.fade{
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.timer_section{
+  height: 100vh;
+  background-color: skyblue;
+}
+
+@keyframes fade {
+  from{
+    opacity: 0.1;
+  }
+  to{
+    opacity: 1;
+  }
+}
